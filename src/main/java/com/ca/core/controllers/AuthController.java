@@ -117,7 +117,9 @@ public class AuthController {
 
 	@PostMapping("/logout")
 	public ResponseEntity<?> logoutUser(@RequestHeader("Authorization") String tokenHeader) {
+		System.out.println("1==========>"+tokenHeader);
 		jwtBlacklistService.blacklistToken(tokenHeader);
+		System.out.println("2");
 		Map<String, String> successMap = new HashMap<>();
 		successMap.put("data", "Successfully logged out");
 		return ResponseEntity.ok(new ApiResponse(true, "Success", successMap));

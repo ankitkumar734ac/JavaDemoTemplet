@@ -37,6 +37,11 @@ public class BlacklistedToken {
 	public void setExpiryDate(Date expiryDate) {
 		this.expiryDate = expiryDate;
 	}
+	@Override
+	public String toString() {
+		return "BlacklistedToken [id=" + id + ", token=" + token + ", email=" + email + ", expiryDate=" + expiryDate
+				+ "]";
+	}
 
     
 }
