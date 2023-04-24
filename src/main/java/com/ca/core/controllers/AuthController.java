@@ -156,6 +156,7 @@ public class AuthController {
 		// Create new user's account
 		User user = new User(signUpRequest.getEmail(), encoder.encode(signUpRequest.getPassword()));
 		Set<String> strRoles = signUpRequest.getRoles();
+		System.out.println("==============================>: "+strRoles)
 		Set<Role> roles = new HashSet<>();
 		if (strRoles == null) {
 			Role userRole = roleRepository.findByName(ERole.ROLE_USER)
