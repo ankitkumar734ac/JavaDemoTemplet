@@ -1,5 +1,8 @@
 package com.ca.core.controllers;
-
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -13,6 +16,17 @@ import com.ca.core.payload.response.ApiResponse;
 @RestController
 @RequestMapping("/api/test")
 public class TestController {
+	@GetMapping("/roles")
+	public ResponseEntity<?> allRoles() {
+		List<String> roles = new ArrayList<>();
+		roles.add("user");
+		roles.add("mod");
+		roles.add("admin");
+		Map<String, Object> data = new HashMap<>();
+		data.put("roles", roles);
+		ApiResponse response = new ApiResponse(true, "Success", data);
+		return ResponseEntity.ok().body(response);
+	}
 	
 	@GetMapping("/all")
 	public ResponseEntity<?> allAccess() {
