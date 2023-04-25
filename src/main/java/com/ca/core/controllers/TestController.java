@@ -1,4 +1,6 @@
 package com.ca.core.controllers;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +32,15 @@ public class TestController {
 	@GetMapping("/roles")
 	public ResponseEntity<?> allRoles() {
 		List<Role> allRoles  = roleRepository.findAll();
-		List<String> roles = allRoles.stream().map(role -> role.getName().name()).collect(Collectors.toList());
+		List<Object> roles = new ArrayList<>();
+		
+		for(Role role : allRoles) {
+			Map<String, String> jsonRole = new HashMap<>();
+			jsonRole.put("DisplayName", role.getName().name()=="ROLE_ADMIN" ? "Admin" : role.getName().name()=="ROLE_MODERATOR"?"Moderator":"User" );
+			jsonRole.put("Value", role.getName().name());
+			roles.add(jsonRole);
+		}
+		
 		Map<String, Object> data = new HashMap<>();
 		data.put("roles", roles);
 		ApiResponse response = new ApiResponse(true, "Success", data);
