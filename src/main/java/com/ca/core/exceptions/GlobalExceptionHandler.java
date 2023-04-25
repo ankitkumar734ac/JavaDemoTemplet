@@ -19,37 +19,43 @@ import com.ca.core.payload.response.ApiResponse;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 	/**
-	 * TO DO
-	 * Ankit
-	 * Here Need to create global exception handler which can handle all exception which raised all over inside code base
+	 * TO DO Ankit Here Need to create global exception handler which can handle all
+	 * exception which raised all over inside code base
 	 */
-   /* private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+	private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
-    @ExceptionHandler(value = { MethodArgumentNotValidException.class })
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public ApiResponse handleValidationException(MethodArgumentNotValidException ex) {
-        Map<String, String> errors = new HashMap<>();
-        ex.getBindingResult().getAllErrors().forEach((error) -> {
-            String fieldName = ((FieldError) error).getField();
-            String errorMessage = error.getDefaultMessage();
-            errors.put(fieldName, errorMessage);
-        });
-        return new ApiResponse(false, "Validation failed", errors);
-    }
-
-
-    @ExceptionHandler(value = { AccessDeniedException.class })
-    @ResponseStatus(HttpStatus.FORBIDDEN)
-    public ApiResponse handleAccessDeniedException(AccessDeniedException ex) {
-        return new ApiResponse(false, "Access denied", ex.getMessage());
-    }
-
-    @ExceptionHandler(value = { Exception.class })
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public ApiResponse handleGenericException(Exception ex) {
-        logger.error("Unhandled exception: {}", ex.getMessage(), ex);
-        return new ApiResponse(false, "Unexpected error", ex.getMessage());
-    }
-*/
-    // Add more exception handlers as needed
+	@ExceptionHandler(IllegalArgumentException.class)
+	public ResponseEntity<?> handleException(Exception ex) {
+		System.err.println(ex.getMessage());
+		Map<String, Object> data = new HashMap<>();
+		ApiResponse errorResponse = new ApiResponse(false, "Provided roles was incorrect!", data);
+		logger.error("Provided roles was incorrect!:" + ex.getMessage());
+		return ResponseEntity.badRequest().body(errorResponse);
+	}
+	/*
+	 * @ExceptionHandler(value = { MethodArgumentNotValidException.class })
+	 * 
+	 * @ResponseStatus(HttpStatus.BAD_REQUEST) public ApiResponse
+	 * handleValidationException(MethodArgumentNotValidException ex) { Map<String,
+	 * String> errors = new HashMap<>();
+	 * ex.getBindingResult().getAllErrors().forEach((error) -> { String fieldName =
+	 * ((FieldError) error).getField(); String errorMessage =
+	 * error.getDefaultMessage(); errors.put(fieldName, errorMessage); }); return
+	 * new ApiResponse(false, "Validation failed", errors); }
+	 * 
+	 * 
+	 * @ExceptionHandler(value = { AccessDeniedException.class })
+	 * 
+	 * @ResponseStatus(HttpStatus.FORBIDDEN) public ApiResponse
+	 * handleAccessDeniedException(AccessDeniedException ex) { return new
+	 * ApiResponse(false, "Access denied", ex.getMessage()); }
+	 * 
+	 * @ExceptionHandler(value = { Exception.class })
+	 * 
+	 * @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR) public ApiResponse
+	 * handleGenericException(Exception ex) {
+	 * logger.error("Unhandled exception: {}", ex.getMessage(), ex); return new
+	 * ApiResponse(false, "Unexpected error", ex.getMessage()); }
+	 */
+	// Add more exception handlers as needed
 }
