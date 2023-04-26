@@ -1,0 +1,135 @@
+{
+  "lastModifiedDate": "",
+  "appId": "1",
+  "appname": "template",
+  "plateform": {
+    "ios": {
+      "appIcon": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appPrimaryFontColor": "#000000",
+      "appSecondaryFontColor": "#FFFFFF",
+      "appPrimaryFontName": "Mont-Regular",
+      "appSecondaryFontName": "Mont-Bold",
+      "appPrimaryFontSize": "24",
+      "appSecondaryFontSize": "20",
+      "appBackgroundColorPrimary": "#525ACC",
+      "appBackgroundColorSecondary": "#525ACC",
+      "appSplashText": "Cloud Analogy",
+      "appSplashBackgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appShowImageOnlyOnSplash": true,
+      "appShowTextOnlyOnSplash": true,
+      "appShowTextAndImageOnSplash": true,
+      "appPasswordMinLength": "8",
+      "appPasswordMaxLength": "20",
+      "ExcludeDomains": [
+        "cloudAnalogy",
+        "forcebolt",
+        "ca"
+      ],
+      "Login": {
+        "backgroundColor": "#FF4969",
+        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "allowGoogleLogin": true,
+        "allowFacebookLogin": true,
+        "allowGithubLogin": true,
+        "allowAppleLogin": true,
+        "showAndHideUserPassword": true
+      }
+    },
+    "react": {
+      "appIcon": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appPrimaryFontColor": "#000000",
+      "appSecondaryFontColor": "#FFFFFF",
+      "appPrimaryFontName": "Mont-Regular",
+      "appSecondaryFontName": "Mont-Bold",
+      "appPrimaryFontSize": "24",
+      "appSecondaryFontSize": "20",
+      "appBackgroundColorPrimary": "#525ACC",
+      "appBackgroundColorSecondary": "#525ACC",
+      "appSplashText": "Cloud Analogy",
+      "appSplashBackgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appShowImageOnlyOnSplash": true,
+      "appShowTextOnlyOnSplash": true,
+      "appShowTextAndImageOnSplash": true,
+      "appPasswordMinLength": "8",
+      "appPasswordMaxLength": "20",
+      "ExcludeDomains": [
+        "cloudAnalogy",
+        "forcebolt",
+        "ca"
+      ],
+      "Login": {
+        "backgroundColor": "#FF4969",
+        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "allowGoogleLogin": true,
+        "allowFacebookLogin": true,
+        "allowGithubLogin": true,
+        "allowAppleLogin": true,
+        "showAndHideUserPassword": true
+      }
+    },
+    "macOS": {
+      "appIcon": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appPrimaryFontColor": "#000000",
+      "appSecondaryFontColor": "#FFFFFF",
+      "appPrimaryFontName": "Mont-Regular",
+      "appSecondaryFontName": "Mont-Bold",
+      "appPrimaryFontSize": "24",
+      "appSecondaryFontSize": "20",
+      "appBackgroundColorPrimary": "#525ACC",
+      "appBackgroundColorSecondary": "#525ACC",
+      "appSplashText": "Cloud Analogy",
+      "appSplashBackgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appShowImageOnlyOnSplash": true,
+      "appShowTextOnlyOnSplash": true,
+      "appShowTextAndImageOnSplash": true,
+      "appPasswordMinLength": "8",
+      "appPasswordMaxLength": "20",
+      "ExcludeDomains": [
+        "cloudAnalogy",
+        "forcebolt",
+        "ca"
+      ],
+      "Login": {
+        "backgroundColor": "#FF4969",
+        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "allowGoogleLogin": true,
+        "allowFacebookLogin": true,
+        "allowGithubLogin": true,
+        "allowAppleLogin": true,
+        "showAndHideUserPassword": true
+      }
+    },
+    "android": {
+      "appIcon": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appPrimaryFontColor": "#000000",
+      "appSecondaryFontColor": "#FFFFFF",
+      "appPrimaryFontName": "Mont-Regular",
+      "appSecondaryFontName": "Mont-Bold",
+      "appPrimaryFontSize": "24",
+      "appSecondaryFontSize": "20",
+      "appBackgroundColorPrimary": "#525ACC",
+      "appBackgroundColorSecondary": "#525ACC",
+      "appSplashText": "Cloud Analogy",
+      "appSplashBackgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+      "appShowImageOnlyOnSplash": true,
+      "appShowTextOnlyOnSplash": true,
+      "appShowTextAndImageOnSplash": true,
+      "appPasswordMinLength": "8",
+      "appPasswordMaxLength": "20",
+      "ExcludeDomains": [
+        "cloudAnalogy",
+        "forcebolt",
+        "ca"
+      ],
+      "Login": {
+        "backgroundColor": "#FF4969",
+        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "allowGoogleLogin": true,
+        "allowFacebookLogin": true,
+        "allowGithubLogin": true,
+        "allowAppleLogin": true,
+        "showAndHideUserPassword": true
+      }
+    }
+  }
+}
