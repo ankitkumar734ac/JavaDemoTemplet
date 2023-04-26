@@ -67,10 +67,10 @@ public class TestController {
 	}
 	@GetMapping("/app-info")
 	public ResponseEntity<?> getPlaylode() {
-		String filename = "app-data.json";
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(filename).getFile());
-        System.out.println(classLoader.getResource(filename).getFile());
+		String filename = "src/main/resources/app-data.json";
+        //ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(filename);
+        System.out.println(filename);
         try {
             // Parse the contents of the JSON file
             String contents = new String(Files.readAllBytes(file.toPath()), StandardCharsets.UTF_8);
