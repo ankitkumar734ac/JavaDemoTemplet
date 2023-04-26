@@ -7,11 +7,17 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.ca.core.models.Role;
 import com.ca.core.models.User;
@@ -76,5 +82,24 @@ public class TestController {
 		String message =  "Admin Board.";
 		ApiResponse response = new ApiResponse(true, "Success", message);
 	    return ResponseEntity.ok().body(response);
+	}
+	@GetMapping("/all-user")
+	@PreAuthorize("hasRole('ADMIN')")
+	public ResponseEntity<?> getUsersFromDB(@RequestParam(defaultValue = "0") int page,
+			@RequestParam(defaultValue = "10") int size) {
+		System.out.println("Page:"+page+" : Size: "+size);
+		Pageable paging = PageRequest.of(page, size, Sort.by("username"));
+		Page<User> pageUsers = userRepository.findAll(paging);
+		List<User> users = pageUsers.getContent();
+		Map<String, Object> data = new HashMap<>();
+		if (users.isEmpty()) {
+			return ResponseEntity.ok(HttpStatus.NO_CONTENT);
+		}
+		data.put("currentPage", pageUsers.getNumber());
+		data.put("totalItems", pageUsers.getTotalElements());
+		data.put("totalPages", pageUsers.getTotalPages());
+		data.put("Users", users);
+		ApiResponse response = new ApiResponse(true, "Success", data);
+		return ResponseEntity.ok().body(response);
 	}
 }
