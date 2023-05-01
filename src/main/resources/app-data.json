@@ -92,8 +92,8 @@
       "Login": {
         "backgroundColor": "#FF4969",
         "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
-        "allowGoogleLogin": false,
-        "allowFacebookLogin": true,
+        "allowGoogleLogin": true,
+        "allowFacebookLogin": false,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
         "showAndHideUserPassword": true
