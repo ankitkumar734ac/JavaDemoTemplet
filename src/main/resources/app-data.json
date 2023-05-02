@@ -11,6 +11,7 @@
       "appSecondaryFontName": "Mont-Bold",
       "appPrimaryFontSize": 24,
       "appSecondaryFontSize": 20,
+      "appNormalFontSize" : 16,
       "appBackgroundColorPrimary": "#C2CBEE",
       "appBackgroundColorSecondary": "#86956D",
       "appSplashText": "Cloud Analogy",
@@ -27,12 +28,20 @@
       ],
       "Login": {
         "backgroundColor": "#FF4969",
+        "signupBackgroundColor" : "#FB4B2A",
+        "appNormalFontSize" : 16,
         "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": false,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
-        "showAndHideUserPassword": true
+        "showAndHideUserPassword": true,
+        "FacebookIcon" : "https://iili.io/HSq4RuS.png",
+        "TwitterIcon" : "https://iili.io/HSq47t9.png",
+        "AppleIcon" : "https://iili.io/HSq4T8l.png",
+        "LinkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "GoogleIcon" : "https://iili.io/HSq45w7.png",
+        "GithubIcon" : "https://iili.io/HSq4A92.png"
       }
     },
     "react": {
@@ -43,6 +52,7 @@
       "appSecondaryFontName": "Mont-Bold",
       "appPrimaryFontSize": 24,
       "appSecondaryFontSize": 20,
+      "appNormalFontSize" : 16,
       "appBackgroundColorPrimary": "#4C3DFA",
       "appBackgroundColorSecondary": "#6729F1",
       "appSplashText": "Cloud Analogy",
@@ -59,12 +69,19 @@
       ],
       "Login": {
         "backgroundColor": "#FF4969",
+        "signupBackgroundColor" : "#FB4B2A",
         "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": true,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
-        "showAndHideUserPassword": true
+        "showAndHideUserPassword": true,
+        "FacebookIcon" : "https://iili.io/HSq4RuS.png",
+        "TwitterIcon" : "https://iili.io/HSq47t9.png",
+        "AppleIcon" : "https://iili.io/HSq4T8l.png",
+        "LinkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "GoogleIcon" : "https://iili.io/HSq45w7.png",
+        "GithubIcon" : "https://iili.io/HSq4A92.png"
       }
     },
     "macOS": {
@@ -74,7 +91,8 @@
       "appPrimaryFontName": "Mont-Regular",
       "appSecondaryFontName": "Mont-Bold",
       "appPrimaryFontSize": 24,
-      "appSecondaryFontSize": 20,
+      "appSecondaryFontSize": 18,
+      "appNormalFontSize" : 16,
       "appBackgroundColorPrimary": "#C2CBEE",
       "appBackgroundColorSecondary": "#6729F1",
       "appSplashText": "Cloud Analogy",
@@ -91,6 +109,7 @@
       ],
       "Login": {
         "backgroundColor": "#FF4969",
+        "signupBackgroundColor" : "#FB4B2A",
         "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": false,
@@ -107,6 +126,7 @@
       "appSecondaryFontName": "Mont-Bold",
       "appPrimaryFontSize": 24,
       "appSecondaryFontSize": 20,
+      "appNormalFontSize" : 16,
       "appBackgroundColorPrimary": "#4C3DFA",
       "appBackgroundColorSecondary": "#6729F1",
       "appSplashText": "Cloud Analogy",
@@ -123,6 +143,7 @@
       ],
       "Login": {
         "backgroundColor": "#FF4969",
+        "signupBackgroundColor" : "#FB4B2A",
         "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": true,
