@@ -1,5 +1,5 @@
 {
-  "lastModifiedDate": "2023-05-02T08:44:43.640206",
+  "lastModifiedDate": "2023-05-02T12:21:24.629651",
   "appId": "1",
   "appname": "template",
   "plateform": {
@@ -35,13 +35,15 @@
         "allowFacebookLogin": false,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
+        "allowLinkedinLogin": false,
+        "allowTwitterLogin": false,
         "showAndHideUserPassword": true,
-        "FacebookIcon" : "https://iili.io/HSq4RuS.png",
-        "TwitterIcon" : "https://iili.io/HSq47t9.png",
-        "AppleIcon" : "https://iili.io/HSq4T8l.png",
-        "LinkedinIcon" : "https://iili.io/HSq4zFf.png",
-        "GoogleIcon" : "https://iili.io/HSq45w7.png",
-        "GithubIcon" : "https://iili.io/HSq4A92.png"
+        "facebookIcon" : "https://iili.io/HSq4RuS.png",
+        "twitterIcon" : "https://iili.io/HSq47t9.png",
+        "appleIcon" : "https://iili.io/HSq4T8l.png",
+        "linkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "googleIcon" : "https://iili.io/HSq45w7.png",
+        "githubIcon" : "https://iili.io/HSq4A92.png"
       }
     },
     "react": {
@@ -75,13 +77,15 @@
         "allowFacebookLogin": true,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
+        "allowLinkedinLogin": false,
+        "allowTwitterLogin": false,
         "showAndHideUserPassword": true,
-        "FacebookIcon" : "https://iili.io/HSq4RuS.png",
-        "TwitterIcon" : "https://iili.io/HSq47t9.png",
-        "AppleIcon" : "https://iili.io/HSq4T8l.png",
-        "LinkedinIcon" : "https://iili.io/HSq4zFf.png",
-        "GoogleIcon" : "https://iili.io/HSq45w7.png",
-        "GithubIcon" : "https://iili.io/HSq4A92.png"
+        "facebookIcon" : "https://iili.io/HSq4RuS.png",
+        "twitterIcon" : "https://iili.io/HSq47t9.png",
+        "appleIcon" : "https://iili.io/HSq4T8l.png",
+        "linkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "googleIcon" : "https://iili.io/HSq45w7.png",
+        "githubIcon" : "https://iili.io/HSq4A92.png"
       }
     },
     "macOS": {
@@ -115,7 +119,15 @@
         "allowFacebookLogin": false,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
-        "showAndHideUserPassword": true
+        "showAndHideUserPassword": true,
+        "allowLinkedinLogin": false,
+        "allowTwitterLogin": false,
+        "facebookIcon" : "https://iili.io/HSq4RuS.png",
+        "twitterIcon" : "https://iili.io/HSq47t9.png",
+        "appleIcon" : "https://iili.io/HSq4T8l.png",
+        "linkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "googleIcon" : "https://iili.io/HSq45w7.png",
+        "githubIcon" : "https://iili.io/HSq4A92.png"
       }
     },
     "android": {
@@ -149,7 +161,15 @@
         "allowFacebookLogin": true,
         "allowGithubLogin": true,
         "allowAppleLogin": true,
-        "showAndHideUserPassword": true
+        "allowLinkedinLogin": false,
+        "allowTwitterLogin": false,
+        "showAndHideUserPassword": true,
+        "facebookIcon" : "https://iili.io/HSq4RuS.png",
+        "twitterIcon" : "https://iili.io/HSq47t9.png",
+        "appleIcon" : "https://iili.io/HSq4T8l.png",
+        "linkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "googleIcon" : "https://iili.io/HSq45w7.png",
+        "githubIcon" : "https://iili.io/HSq4A92.png"
       }
     }
   }
