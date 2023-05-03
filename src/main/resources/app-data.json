@@ -1,5 +1,5 @@
 {
-  "lastModifiedDate": "2023-05-03T06:28:02.550567",
+  "lastModifiedDate": "2023-05-03T06:53:54.185910",
   "appId": "1",
   "appname": "template",
   "plateform": {
@@ -30,7 +30,9 @@
         "backgroundColor": "#FF4969",
         "signupBackgroundColor" : "#FB4B2A",
         "appNormalFontSize" : 16,
-        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "secondryBackgroundColor" : "#4b2bff",
+        "appLoginIcon":"https://iili.io/HS5pBbj.png",
+        "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": false,
         "allowGithubLogin": true,
@@ -71,9 +73,10 @@
       ],
       "Login": {
         "backgroundColor": "#9741ff",
-        "secondryBackgroundColor" : "#ff2bc6",
-        "signupBackgroundColor" : "#ff4b2b",
-        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "secondryBackgroundColor" : "#4b2bff",
+        "signupBackgroundColor" : "#59ff2b",
+        "appLoginIcon":"https://iili.io/HS5pBbj.png",
+        "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": true,
         "allowGithubLogin": true,
@@ -115,7 +118,9 @@
       "Login": {
         "backgroundColor": "#FF4969",
         "signupBackgroundColor" : "#FB4B2A",
-        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "secondryBackgroundColor" : "#4b2bff",
+        "appLoginIcon":"https://iili.io/HS5pBbj.png",
+        "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": false,
         "allowGithubLogin": true,
@@ -157,7 +162,9 @@
       "Login": {
         "backgroundColor": "#FF4969",
         "signupBackgroundColor" : "#FB4B2A",
-        "backgroundImage": "https://www.cloudanalogy.com/wp-content/uploads/2020/07/cropped-cropped-CA_logo-120-x-80_80fa8a97375e87977bca0ff88f5c6e9a.png",
+        "secondryBackgroundColor" : "#4b2bff",
+        "appLoginIcon":"https://iili.io/HS5pBbj.png",
+        "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": true,
         "allowGithubLogin": true,
