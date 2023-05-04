@@ -1,5 +1,5 @@
 {
-  "lastModifiedDate": "2023-05-04T08:17:22.822780",
+  "lastModifiedDate": "2023-05-04T12:14:43.865151",
   "appId": "1",
   "appname": "template",
   "plateform": {
@@ -123,7 +123,7 @@
         "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
         "allowFacebookLogin": false,
-        "allowGithubLogin": true,
+        "allowGithubLogin": false,
         "allowAppleLogin": true,
         "showAndHideUserPassword": true,
         "allowLinkedinLogin": false,
