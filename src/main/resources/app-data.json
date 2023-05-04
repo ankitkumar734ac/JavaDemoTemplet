@@ -72,9 +72,9 @@
         "ca"
       ],
       "Login": {
-        "backgroundColor": "#9741ff",
-        "secondryBackgroundColor" : "#4b2bff",
-        "signupBackgroundColor" : "#4b2bff",
+        "backgroundColor": "#ff416c",
+        "secondryBackgroundColor" : "#ff4b2b",
+        "signupBackgroundColor" : "#ff4b2b",
         "appLoginIcon":"https://iili.io/HS5pBbj.png",
         "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
