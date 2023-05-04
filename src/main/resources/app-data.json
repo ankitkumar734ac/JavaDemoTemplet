@@ -43,7 +43,7 @@
         "facebookIcon" : "https://iili.io/HSq4RuS.png",
         "twitterIcon" : "https://iili.io/HSq47t9.png",
         "appleIcon" : "https://iili.io/HSq4T8l.png",
-        "linkedinIcon" : "https://iili.io/HSq4zFf.png",
+        "linkedinIcon" : "https://iili.io/HSVIRMF.png",
         "googleIcon" : "https://iili.io/HSq45w7.png",
         "githubIcon" : "https://iili.io/HSq4A92.png"
       }
@@ -128,12 +128,12 @@
         "showAndHideUserPassword": true,
         "allowLinkedinLogin": false,
         "allowTwitterLogin": false,
-        "facebookIcon" : "https://iili.io/HSq4RuS.png",
-        "twitterIcon" : "https://iili.io/HSq47t9.png",
+        "facebookIcon" : "https://iili.io/HSVIYFa.png",
+        "twitterIcon" : "https://iili.io/HSVIacJ.png",
         "appleIcon" : "https://iili.io/HSq4T8l.png",
         "linkedinIcon" : "https://iili.io/HSq4zFf.png",
-        "googleIcon" : "",
-        "githubIcon" : "https://iili.io/HSq4A92.png"
+        "googleIcon" : "https://iili.io/HSVI56g.png",
+        "githubIcon" : "https://iili.io/HSVIAn1.png"
       }
     },
     "android": {
