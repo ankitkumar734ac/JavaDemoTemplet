@@ -1,5 +1,5 @@
 {
-  "lastModifiedDate": "2023-05-04T12:21:41.404348",
+  "lastModifiedDate": "2023-05-04T14:54:22.766079",
   "appId": "1",
   "appname": "template",
   "plateform": {
@@ -26,6 +26,7 @@
         "forcebolt",
         "ca"
       ],
+      "slidebar":["Home","About","Version"],
       "Login": {
         "backgroundColor": "#FF4969",
         "signupBackgroundColor" : "#FB4B2A",
@@ -71,6 +72,7 @@
         "forcebolt",
         "ca"
       ],
+      "slidebar":["Home","About","Version"],
       "Login": {
         "backgroundColor": "#ff416c",
         "secondryBackgroundColor" : "#ff4b2b",
@@ -115,6 +117,7 @@
         "forcebolt",
         "ca"
       ],
+      "slidebar":["Home","About","Version"],
       "Login": {
         "backgroundColor": "#FF4969",
         "signupBackgroundColor" : "#FB4B2A",
@@ -159,6 +162,7 @@
         "forcebolt",
         "ca"
       ],
+      "slidebar":["Home","About","Version"],
       "Login": {
         "backgroundColor": "#FF4969",
         "signupBackgroundColor" : "#FB4B2A",
