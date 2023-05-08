@@ -74,9 +74,9 @@
       ],
       "slidebar":["Home","About","Version"],
       "Login": {
-        "backgroundColor": "#ff416c",
-        "secondryBackgroundColor" : "#ff4b2b",
-        "signupBackgroundColor" : "#ff4b2b",
+        "backgroundColor": "#9741ff",
+        "secondryBackgroundColor" : "#ff2bc6",
+        "signupBackgroundColor" : "#ff2bc6",
         "appLoginIcon":"https://iili.io/HS5pBbj.png",
         "backgroundImage": "https://iili.io/HS5pBbj.png",
         "allowGoogleLogin": true,
